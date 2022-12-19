@@ -1,28 +1,28 @@
 *.gem
 *.rbc
-rails/.config
-rails/coverage/
-rails/InstalledFiles
-rails/pkg/
-rails/spec/reports/
-rails/spec/examples.txt
-rails/test/tmp/
-rails/test/version_tmp/
-rails/tmp/
+*/**/.config
+*/**/coverage/
+*/**/InstalledFiles
+*/**/pkg/
+*/**/spec/reports/
+*/**/spec/examples.txt
+*/**/test/tmp/
+*/**/test/version_tmp/
+*/**/tmp/
 
 # Used by dotenv library to load environment variables.
 # .env
 
 # Ignore Byebug command history file.
-rails/.byebug_history
+*/**/.byebug_history
 
 ## Specific to RubyMotion:
-rails/.dat*
-rails/.repl_history
-rails/build/
-rails/*.bridgesupport
-rails/build-iPhoneOS/
-rails/build-iPhoneSimulator/
+*/**/.dat*
+*/**/.repl_history
+*/**/build/
+*/**/*.bridgesupport
+*/**/build-iPhoneOS/
+*/**/build-iPhoneSimulator/
 
 ## Specific to RubyMotion (use of CocoaPods):
 #
@@ -33,15 +33,15 @@ rails/build-iPhoneSimulator/
 # vendor/Pods/
 
 ## Documentation cache and generated files:
-rails/.yardoc/
-rails/_yardoc/
-rails/doc/
-rails/rdoc/
+*/**/.yardoc/
+*/**/_yardoc/
+*/**/doc/
+*/**/rdoc/
 
 ## Environment normalization:
-rails/.bundle/
-rails/vendor/bundle
-rails/lib/bundler/man/
+*/**/.bundle/
+*/**/vendor/bundle
+*/**/lib/bundler/man/
 
 # for a library or gem, you might want to ignore these files since the code is
 # intended to run in multiple environments; otherwise, check them in:
@@ -50,7 +50,7 @@ rails/lib/bundler/man/
 # .ruby-gemset
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
-rails/.rvmrc
+*/**/.rvmrc
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
